@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="Service youtube" path="src\test\resources\features\GravarProposta.feature" started="1592270579768" tag=""><file><![CDATA[@FluxoProposta @GravarProposta
+Feature: Service youtube
+
+  Background: 
+    Given que acesso o youtube
+    And pesquiso um video
+
+  Scenario: vizualizar video
+    When curto o video
+    Then acessarei o video certo
+]]></file><scenarios><background><steps><step duration="7471001999" name="Given que acesso o youtube" status="passed"/><step duration="10555370500" name="And pesquiso um video" status="failed"/></steps></background><scenario name="vizualizar video"><steps><step duration="0" name="When curto o video" status="skipped"/><step duration="0" name="Then acessarei o video certo" status="skipped"/></steps></scenario></scenarios></feature></features>
